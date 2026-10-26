@@ -276,4 +276,6 @@ cp config.example.json config.json
 
 ## License
 
-仓库尚未声明开源许可证。若计划长期公开维护，建议补一个 `LICENSE`（代码推荐 MIT，素材另行说明）。
+- **代码**（`comfy_bridge.py`、`content_rewrite.py`、`榜单视频生成器.html`、启动/守护脚本、`config.example.json`）以 [MIT](LICENSE) 许可证发布：可自由使用、修改、再分发，保留版权与许可声明即可。
+- **仓库内的演示素材**（`font/`、`bgm/`、`images/`）**不在 MIT 覆盖范围内**，来源与商用限制见上一节「素材与授权」。
+- **提示词文件**未包含在仓库内，不适用本许可证。
