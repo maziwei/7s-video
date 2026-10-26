@@ -1,0 +1,36 @@
+# ---- 本地配置（含飞书 App Secret / API Key，绝对不能提交）----
+config.json
+config.local.json
+*.secret.json
+.env
+.env.*
+
+# ---- 运行日志（含本机用户名与绝对路径）----
+*.log
+
+# ---- 运行时缓存 / 用户数据 ----
+tts_cache/
+inbox/
+导出/
+rewrite_pending.json
+*.tmp
+*.tmp.webm
+comfyui_out.log
+comfyui_err.log
+
+# ---- 私有提示词（含业务方法论，不希望公开时取消下面两行注释）----
+# 内容生成prompt.txt
+# 配音文案prompt.txt
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
